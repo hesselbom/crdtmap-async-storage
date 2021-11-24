@@ -1,0 +1,30 @@
+{
+  "name": "crdtmap-async-storage",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "./dist/crdtmap-async-storage.cjs",
+  "scripts": {
+    "dist": "rm -rf dist && rollup -c",
+    "prepare": "npm run dist",
+    "test": "jest",
+    "lint": "standard"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "jest": "^27.3.1",
+    "parcel": "^2.0.0",
+    "rollup": "^2.58.3",
+    "standard": "^16.0.4"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.11",
+    "base64-js": "^1.5.1",
+    "crdtmap": "0.1.1",
+    "lib0": "^0.2.42"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hesselbom/crdtmap-async-storage"
+  }
+}
