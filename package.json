@@ -1,6 +1,6 @@
 {
   "name": "crdtmap-async-storage",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "./dist/crdtmap-async-storage.cjs",
   "scripts": {
@@ -20,7 +20,7 @@
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.15.11",
     "base64-js": "^1.5.1",
-    "crdtmap": "0.1.1",
+    "crdtmap": "0.1.3",
     "lib0": "^0.2.42"
   },
   "repository": {
